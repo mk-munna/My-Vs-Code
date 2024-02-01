@@ -1,0 +1,35 @@
+{
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.fontSize": 16,
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "files.autoSave": "afterDelay",
+    "workbench.preferredHighContrastLightColorTheme": "Default Dark Modern",
+    "workbench.preferredLightColorTheme": "Default Dark Modern",
+    "window.autoDetectHighContrast": false,
+    "workbench.iconTheme": "vscode-icons",
+    "security.workspace.trust.untrustedFiles": "open",
+    "tabnine.experimentalAutoImports": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.colorTheme": "Andromeda",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    "extensions.webWorker": true,
+    "workbench.colorCustomizations": {
+        "sideBar.background": "#1e2330",
+        "activityBar.activeBackground": "#1f1d30",
+        "activityBar.background": "#222331",
+        "tab.activeBackground": "#2e5048",
+        "tab.inactiveBackground": "#1e2330",
+        "titleBar.activeBackground": "#222331",
+        "panel.background": "#1e2330",
+        "badge.background": "#d32433",
+        
+    },
+   
+"editor.fontFamily": "fira code, Consolas, monospace",
+"editor.fontLigatures": true,
+
+}
