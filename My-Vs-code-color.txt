@@ -18,18 +18,43 @@
     "editor.cursorBlinking": "expand",
     "extensions.webWorker": true,
     "workbench.colorCustomizations": {
-        "sideBar.background": "#1e2330",
-        "activityBar.activeBackground": "#1f1d30",
-        "activityBar.background": "#222331",
+        "sideBar.background": "#21242c",
+        "activityBar.activeBackground": "#2b293d",
+        "activityBar.background": "#20232c",
         "tab.activeBackground": "#2e5048",
         "tab.inactiveBackground": "#1e2330",
         "titleBar.activeBackground": "#222331",
-        "panel.background": "#1e2330",
-        "badge.background": "#d32433",
+        "panel.background": "#21242c",
+        "badge.background": "#01ac95",
+        // "editor.background": "#1e2330"
+        "activityBar.activeBorder": "#0aaa9d",
+        "activityBarBadge.background": "#06ad9f",
+        
+        
         
     },
-   
 "editor.fontFamily": "fira code, Consolas, monospace",
 "editor.fontLigatures": true,
-
+// 
+// "editor.smoothScrolling": true,
+"[html]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.autoIndent": "advanced",
+    "editor.suggest.preview": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    
+},
+"editor.formatOnPaste": true,
+"terminal.integrated.cursorBlinking": true,
+"terminal.integrated.cursorStyle": "line",
+"terminal.integrated.cursorWidth": 2,
+"terminal.integrated.cursorStyleInactive": "none",
+"terminal.integrated.fontFamily": "fira code",
+"editor.tokenColorCustomizations": {
+    "comments": "#949693",
+    "numbers": "#ffb97f",
+    "keywords": "#d78cda"
+    
+}
 }
