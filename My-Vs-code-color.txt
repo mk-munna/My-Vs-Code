@@ -18,15 +18,16 @@
     "editor.cursorBlinking": "expand",
     "extensions.webWorker": true,
     "workbench.colorCustomizations": {
+        // here your can customize your editor color theme
         "sideBar.background": "#21242c",
         "activityBar.activeBackground": "#2b293d",
         "activityBar.background": "#20232c",
         "tab.activeBackground": "#2e5048",
         "tab.inactiveBackground": "#1e2330",
-        "titleBar.activeBackground": "#222331",
+        "titleBar.activeBackground": "#1e1e2b",
         "panel.background": "#21242c",
         "badge.background": "#01ac95",
-        // "editor.background": "#1e2330"
+        "editor.background": "#20232b",
         "activityBar.activeBorder": "#0aaa9d",
         "activityBarBadge.background": "#06ad9f",
         
@@ -36,7 +37,6 @@
 "editor.fontFamily": "fira code, Consolas, monospace",
 "editor.fontLigatures": true,
 // 
-// "editor.smoothScrolling": true,
 "[html]": {
     "editor.suggest.insertMode": "replace",
     "editor.autoIndent": "advanced",
@@ -46,15 +46,20 @@
     
 },
 "editor.formatOnPaste": true,
+"editor.formatOnType": true,
 "terminal.integrated.cursorBlinking": true,
 "terminal.integrated.cursorStyle": "line",
 "terminal.integrated.cursorWidth": 2,
 "terminal.integrated.cursorStyleInactive": "none",
 "terminal.integrated.fontFamily": "fira code",
 "editor.tokenColorCustomizations": {
+    // here you can add your custom color by typing -
+    //- function, variables, comments,numbers etc
     "comments": "#949693",
     "numbers": "#ffb97f",
-    "keywords": "#d78cda"
+    "keywords": "#d78cda",
     
-}
+    
+    
+},
 }
