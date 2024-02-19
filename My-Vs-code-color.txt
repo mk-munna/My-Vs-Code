@@ -13,8 +13,6 @@
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "workbench.colorTheme": "Andromeda",
-    "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorBlinking": "expand",
     "extensions.webWorker": true,
     "workbench.colorCustomizations": {
@@ -51,15 +49,149 @@
 "terminal.integrated.cursorStyle": "line",
 "terminal.integrated.cursorWidth": 2,
 "terminal.integrated.cursorStyleInactive": "none",
+"editor.cursorSmoothCaretAnimation": "on",
 "terminal.integrated.fontFamily": "fira code",
 "editor.tokenColorCustomizations": {
     // here you can add your custom color by typing -
     //- function, variables, comments,numbers etc
-    "comments": "#949693",
+    "comments": "#8c8d8b",
     "numbers": "#ffb97f",
     "keywords": "#d78cda",
     
-    
-    
+    "textMateRules": [
+        {
+            "scope": "keyword.operator",
+            "settings": {
+                "foreground": "#e9d414"
+            }
+        },
+        {
+            "scope": "storage.type.function.js",
+            "settings": {
+                "foreground": "#ff6f6f"
+            }
+        },
+        {
+            "scope": "keyword.control.conditional.js",
+            "settings": {
+                "foreground": "#e05353"
+            }
+        },
+        {
+            "scope": "keyword.control.loop.js",
+            "settings": {
+                "foreground": "#e05353"
+            }
+        },
+        {
+            "scope": "keyword.control.flow.js",
+            "settings": {
+                "foreground": "#fdee1f"
+            }
+        },
+        // {
+        //     "scope": "string.quoted.single.js",
+        //     "settings": {
+        //         "foreground": "#b5c980"
+        //     }
+        // },
+        {
+            "scope": "support.type.property-name.css",
+            "settings": {
+                "foreground": "#51e9c3"
+            }
+        },
+        {
+            "scope": "support.constant.property-value.css",
+            "settings": {
+                "foreground": "#d4c818"
+            }
+        },
+        {
+            "scope": "entity.other.attribute-name.class.css",
+            "settings": {
+                "foreground": "#d4c818"
+            }
+        },
+        {
+            "scope": "entity.name.tag.css",
+            "settings": {
+                "foreground": "#c490e2"
+            }
+        },
+        {
+            "scope": "string.quoted.double.html",
+            "settings": {
+                "foreground": "#c4b576"
+            }
+        },
+        {
+            // html tag
+            "scope": "entity.name.tag.html",
+            "settings": {
+                "foreground": "#f19d3c"
+            }
+        },
+        {
+            // html tag punc start
+            "scope": "punctuation.definition.tag.begin.html",
+            "settings": {
+                "foreground": "#b4b4b4ee"
+            }
+        },
+        {
+            // html tag punc end
+            "scope": "punctuation.definition.tag.end.html",
+            "settings": {
+                "foreground": "#b4b4b4ee"
+            }
+        },
+        // class id
+        { 
+            "scope": "entity.other.attribute-name.html",
+            "settings": {
+                "foreground": "#51e9c3"
+            }
+        },
+        // {
+        //     "scope": "punctuation.separator.key-value.html",
+        //     "settings": {
+        //         "foreground": "#e00000ee"
+        //     }
+        // },
+        
+        {
+            "scope": "text.html.derivative",
+            "settings": {
+                "foreground": "#d4d4d4ee"
+            }
+        },
+        {
+            "scope": "punctuation.definition.entity.html",
+            "settings": {
+                "foreground": "#f58217ee"
+            }
+        },
+        {
+            "scope": "constant.character.entity.named.nbsp.html",
+            "settings": {
+                "foreground": "#d58ffdee"
+            }
+        },
+        // {
+        //     "scope": "comment.block.html",
+        //     "settings": {
+        //         "foreground": "#7ea876ee"
+        //     }
+        // },
+        
+    ]
 },
+// 
+
+// 
+"emmet.showSuggestionsAsSnippets": true,
+"emmet.useInlineCompletions": true,
+"emmet.triggerExpansionOnTab": true,
+"workbench.colorTheme": "Andromeda Colorizer",
 }
